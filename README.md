@@ -37,6 +37,7 @@ Jupyter Notebook is an open-source web application that allows you to create and
 
 # Concept.
 
+
 ### Graph Theory.
 
 In various industries such as computer science, mathematics, information technology, biosciences and many more, graph theory is the study of graphs, a mathematical structure use to model pair wise relationships between objects from a collection. Graph theory uses vertices (nodes or points) and edges (lines or links) to specify and illustrate these relationships. In this journal, we will look at the important role graph theory plays in computer science by discussing and implementing graph algorithms. 
@@ -45,12 +46,57 @@ In this journal, we will look at two an algorithms (<b>Heap Sort and Graph isomo
 
 # Contents.
 
+
 ### Heap Sort.
 
-Heap sort is a comparison based sorting algorithm. Is is based on a binary heap structure which we can very efficiently model and represent as a graph. The concept of heap sort is to remove elements one by one from a heap and insert those elements into a sorted list. 
+Heap sort is a comparison based sorting algorithm. Is is based on a binary heap structure which we can very efficiently model and represent as a graph. The concept of heap sort is to remove elements one by one from a heap and insert those elements into a sorted list. In the accompanying notebook we will exam what exactly a heap is, types of heaps, we will look at binary tree data structures, how the heap sort algorithm works using python, define and understand the best and worst case scenarios for time complexity and how we use graph theory to examine and study this algorithm.
 
 
 ### Graph Isomorphism Problem.
 
 During my time of writing, this is still an unsolved problem in computer science. But, a Hungarian computer scientist by the name of László Babai has claimed to have solved this problem. His work is yet to be verified. The Graph Isomorphism problem is to determine if two finite graphs (which represent structures or situations) are identical (isomorphic). This has not yet been shown to be solvable with a polynomial-time algorithm. The graph isomorphism problem arises in many situations and therefore many approaches to solve this have been undertaken.
 
+
+# References.
+
+References listed below are also located within appropriate sections of the notebooks:
+
+[matplotlib docs.](https://matplotlib.org/3.5.0/api/_as_gen/matplotlib.pyplot.html)
+
+[newtorkx docs.](https://networkx.org/)
+
+[Heap sort wikipedia.](https://en.wikipedia.org/wiki/Heapsort)
+
+[Brief descriptive heap sort video. Credit: Michael Sambol](https://www.youtube.com/watch?v=2DmK_H7IdTo)
+
+[Heap sort by Keita Miyaki.](https://towardsdatascience.com/basic-algorithms-heapsort-31d64d6919a1)
+
+[Big O cheat sheet.](https://www.bigocheatsheet.com/)
+
+[A good read on graph theory. Credit: Vegard Flovik](https://towardsdatascience.com/what-is-graph-theory-and-why-should-you-care-28d6a715a5c2)
+
+[Various sorting algorithms. Credit: Amit Singh Rathore](https://towardsdatascience.com/sorting-algorithms-with-python-4ec7081d78a1)
+
+[Grap Isomorphism problem. Credit Scott Fortin](https://era.library.ualberta.ca/items/f8153faa-71bf-4b64-9eb4-f0c6d3b529dd?fbclid=IwAR1wlefGVtcmG12nM17jZDVWQBdtpfgBJUaMYGHXEei9CtOxnsL9aEIJMjA)
+
+[P vs. NP. Credit Stephen Cook](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.185.1255&rep=rep1&type=pdf&fbclid=IwAR1wlefGVtcmG12nM17jZDVWQBdtpfgBJUaMYGHXEei9CtOxnsL9aEIJMjA#page=82)
+
+[P vs. NP. MIT article](https://news.mit.edu/2009/explainer-pnp)
+
+[Networkx](https://networkx.org/documentation/stable/index.html)
+
+[NumPy Docs](https://numpy.org/doc/)
+
+[Graphs in Data Structures blog](https://www.mygreatlearning.com/blog/representing-graphs-in-data-structures/)
+
+[Graphs in Data Structures beginner video](https://www.youtube.com/watch?v=bvWVs0tJUOY)
+
+[python itertools](https://docs.python.org/3/library/itertools.html)
+
+[Networkx is_isomorphic doc](https://networkx.org/documentation/stable/_modules/networkx/algorithms/isomorphism/isomorph.html?#is_isomorphic)
+
+[Tony Canada, Graph Isomorphism](https://tonicanada.medium.com/brute-force-code-for-isomorphisms-1241ef180570)
+
+[Graph Isomorphism Algorithms, Institute of Simulation and training](https://stars.library.ucf.edu/cgi/viewcontent.cgi?article=1105&context=istlibrary&httpsredir=1&referer=&fbclid=IwAR0fYiskb6WnVkjzdMaUMFzMU6LO_1k3LLX1PvukXMHQht9ZxCmhqtEuvKc)
+
+[Graph Isomorphism game. Credit, Eric Mickelsen](https://github.ericmickelsen.com/)
